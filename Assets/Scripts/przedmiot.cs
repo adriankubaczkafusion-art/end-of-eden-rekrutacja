@@ -17,10 +17,10 @@ public class przedmiot : ScriptableObject
     public bool twoHand = false;
     void Start()
     {
-        GeneratePrzedmiotWlocznia();
-        GeneratePrzedmiotMiecz();
-        GeneratePrzedmiotDrewno();
-        GeneratePrzedmiotStalowyGrot();
+      //GeneratePrzedmiotWlocznia();
+      //GeneratePrzedmiotMiecz();
+      //GeneratePrzedmiotDrewno();
+      //GeneratePrzedmiotStalowyGrot();
     }
     /// <summary>
     /// Metoda GeneratePrzedmiot tworzy nowy przedmiot o nazwie "Włócznia", przypisuje mu ikonę, obrażenia, opis, cenę i informację o tym, czy można go stackować. Następnie dodaje ten przedmiot do listy przechowywanych przedmiotów w klasie Inventory.
